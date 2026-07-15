@@ -1,0 +1,28 @@
+# Bases de dados grandes (não versionar os microdados oficiais)
+# (cobre também o caso de o repositório ser iniciado na pasta acima)
+DADOS/
+*.zip
+MICRODADOS_ENEM_*.csv
+microdados_enem_*.zip
+QUEST_HAB_ESTUDO.csv
+
+# Saídas grandes derivadas da base (regeráveis pelo pipeline)
+outputs/tabelas/amostra_enem_2022.csv
+outputs/tabelas/enem_2022_tratado.csv
+outputs/tabelas/enem_2022_base_presenca.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Materiais locais de divulgação (não publicar no repositório)
+social_post/
+
+# Temporários e sistema
+*.tmp
+*.log
+Thumbs.db
+desktop.ini
